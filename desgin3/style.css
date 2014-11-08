@@ -1,0 +1,194 @@
+body
+{
+background-image: url('images/BackgroundFade1.jpg');
+background-size:100% 800px;
+background-repeat:no-repeat;
+}
+#header
+{
+/*this background color is only for viewing the div change last digit to change transparency for now its on 0.3*/
+background-color:rgba(192,192,192,0.3);
+width:80%;
+height:200px;
+margin:0 auto;
+margin-top:5px;
+}
+#banner
+{
+background-image: url('images/banner.png');
+background-size: 100% 100%;
+width:100%;
+height:60px;
+position:absolute;
+top:200px;
+right:0px;
+
+}
+
+#anchors
+{
+width:66%;
+height:50%;
+margin:0 auto;
+margin-top:20px;
+
+}
+.placeholders
+{
+width:75px;
+height:100%;
+float:left;
+}
+.navigation
+{
+font-size:16px;
+color:white;
+}
+#wrapper
+{
+border-radius:25px;
+box-shadow:10px 10px 5px #888888;
+border-style:groove;
+border-width:6px;
+border-color:#98bf21;
+width:66%;
+height:1000px;
+margin:0 auto;
+margin-top:100px;
+}
+#top
+{
+border-radius: 25px;
+border-style: groove;
+border-width: 6px;
+border-color: #98bf21;
+box-shadow: 5px 5px 5px #888888;
+width:98%;
+height:12%;
+float:left;
+margin-top:5px;
+margin-left:6px;
+}
+#side
+{
+border-radius: 25px;
+border-style: groove;
+border-width: 6px;
+border-color: #98bf21;
+box-shadow: 5px 5px 5px #888888;
+width:20%;
+height:84%;
+float:left;
+margin-top:5px;
+margin-left:6px;
+}
+#main
+{
+border-radius: 25px;
+border-style: groove;
+border-width: 6px;
+border-color: #98bf21;
+box-shadow: 5px 5px 5px #888888;
+width:76%;
+height:72%;
+float:right;
+margin-top:5px;
+margin-right:5px;
+}
+#sidetext
+{
+color:white;
+text-align:center;
+font-size:30px;
+}
+.slop
+{
+margin-top:20px;
+margin-left:20px;
+
+}
+#advert
+{
+background-image:url(images/costs.jpg);
+background-size:100% 85%;
+background-repeat:no-repeat;
+width:76%;
+height:13%;
+float:right;
+margin-right:5px;
+margin-top:5px;
+
+}
+#ad
+{
+float:left;
+margin-left:5px;
+margin-top:5px;
+width:99%;
+height:49%;
+
+}
+#ad2
+{
+float:left;
+margin-left:5px;
+margin-top:10px;
+width:48%;
+height:49%;
+}
+#ad3
+{
+	float:right;
+	margin-left:5px;
+	margin-top:5px;
+	width:48%;
+	height:49%;
+}
+
+#searchstyle{
+	float:right;
+	padding:20px;
+}
+#searchstyle2{
+	float:left;	
+	margin-top:10px;
+	margin-right:2px;
+	padding:20px;
+}
+.textinput{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#666;
+	border:1px solid #0076a3; border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+}
+.searchbutton {
+	margin: 0;
+	padding: 5px 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.searchbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+.searchbutton::-moz-focus-inner {
+	 border: 0;
+}
