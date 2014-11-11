@@ -27,7 +27,22 @@
 		<div id="wrapper">
 			
 			<div id="top">
+			<h1 id="topdivfont">search for services in your area</h1>
+
+			<form id="searchstyle" method="get" action="http://www.google.com">
+		        <input type="text" id="erase" class="textinput" name="sb" size="21" maxlength="120" value="find services in your area"><input type="submit" value="Search" class="searchbutton">
+			</form>
 			
+				<select class="slop" style="width:155px">
+					<option value="location">Location</option>
+					<option value="Dublin">Dublin</option>
+					<option value="Wicklow">Wicklow</option>
+				</select>
+				<select class="slop" style="width:155px">
+					<option value="Type">Services</option>
+					<option value="Chemist">Chemist</option>
+					<option value="GP">GP</option>
+				</select>
 			</div>
 			
 			<div class="main" id="homemain">
@@ -39,7 +54,7 @@
 			</div>
 			</div>
 			
-			<div id="advert">
+			<div class="advert" id="adfirstpg">
 			</div>
 			
 		</div>
