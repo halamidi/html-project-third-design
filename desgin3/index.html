@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
-	
+	<script src=http://code.jquery.com/jquery-latest.min.js></script>
 	</head>
 	<body>
 		<div id="header">
@@ -29,8 +29,8 @@
 			<div id="top">
 			<h1 id="topdivfont">search for services in your area</h1>
 
-			<form id="searchstyle" method="get" action="http://www.google.com">
-		        <input type="text" id="erase" class="textinput" name="sb" size="21" maxlength="120" value="find services in your area"><input type="submit" value="Search" class="searchbutton">
+			<form id="searchstylemain" method="get" action="http://www.google.com">
+		        <input type="text" id="erase2" class="textinput" name="sb" size="18" maxlength="120" value="find services in your area"><input type="submit" value="Search" class="searchbutton">
 			</form>
 			
 				<select class="slop" style="width:155px">
@@ -46,12 +46,30 @@
 			</div>
 			
 			<div class="main" id="homemain">
-			<div id="ad">
-			</div>
-			<div id="ad2">
-			</div>
-			<div id="ad3">
-			</div>
+				<div id="slidewrapper">
+					<div id="prevsld">
+					<div class="txt">
+					<
+					</div>
+					</div>
+					<div id="nextsld">
+					<div class="txt">
+					>
+					</div>
+					</div>
+					<div id="slideshow">
+						<div>
+							<img src="images/shhh.png" width="800px" height="500px">
+						</div>
+						<div>
+							<img src="images/smoke.jpg" width="800px" height="500px">
+						</div>
+						<div>
+							<img src="images/mentalhealth.jpg" width="800px" height="500px">
+						</div>
+					</div>
+					
+				</div>
 			</div>
 			
 			<div class="advert" id="adfirstpg">
@@ -59,7 +77,8 @@
 			
 		</div>
 		
-	<script src="behaviour.js"></script>	
+	<script src="behaviour.js"></script>
+	
 	</body>
 
 </html>
