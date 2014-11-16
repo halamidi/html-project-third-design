@@ -222,22 +222,24 @@ background-repeat:no-repeat;
 }
 	#nextsld
 	{
-		position:absolute;
-		left:1235px;
+		position:relative;
+		left:750px;
+		top:-70px;
 		width:60px;
 		height:500px;
 		background-color:rgba(0,0,0,0.8);
-		z-index:2;
+		z-index:5;
 		color:rgba(244, 236, 236, 0.2);
 	}
 		#prevsld
 		{
-			position:absolute;
-			left:495px;
+			position:relative;
+			top:-640px;
+			left:15px;
 			width:60px;
 			height:500px;
 			background-color:rgba(0,0,0,0.8);
-			z-index:3;
+			z-index:7;
 			color:rgba(244, 236, 236, 0.2);
 		}
 		/*text color has not been included in .txt because it cant be over written*/
@@ -253,9 +255,10 @@ background-repeat:no-repeat;
 			}
 			#slideshow 
 			{  
+				z-index:1;
 				position: absolute;
 				left:485px;
-				max-width: 800px; 
+				max-width: 900px; 
 				height: 500px; 
 			}
 
@@ -266,6 +269,7 @@ background-repeat:no-repeat;
 					left: 10px; 
 					right: 10px; 
 					bottom: 10px; 
+					max-width: 900px; 
 				}
 					#nextsld:hover
 					{
